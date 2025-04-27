@@ -73,15 +73,16 @@ function Login({ switchToRegister }) {
         <button type="submit" disabled={isLoading}>Login</button>  // Disable button during loading
 
         {/* Show loading spinner when isLoading is true */}
-        {isLoading && <div className="loading-spinner">Loading...</div>} 
+        {isLoading && <div className="loading-spinner"></div>} 
       </form>
       
       <p className="toggle-text">
-        Don't have an account?{" "}
-        <span onClick={switchToRegister} className="link-btn">
-          Register
-        </span>
-      </p>
+  Don&apos;t have an account?{" "}
+  <span onClick={switchToRegister} className="link-btn">
+    Register
+  </span>
+</p>
+
 
       {/* Toastify ToastContainer component for notifications */}
       <ToastContainer
