@@ -1,0 +1,34 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.imgWrapper {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.galleryImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.galleryImg:hover {
+  transform: scale(1.05);
+}
+
+/* Optional: Add responsive padding for very small screens */
+@media (max-width: 480px) {
+  .gallery {
+    padding: 10px;
+    gap: 10px;
+  }
+}

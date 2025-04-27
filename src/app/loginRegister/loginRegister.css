@@ -1,0 +1,88 @@
+/* Container Styling */
+.logincontainer {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Main Login/Register Box */
+  .login-container {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Wrapper */
+  .login-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 30px 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .form-container {
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+  }
+  /* Form Styling */
+  .authForm,
+  .registrationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .authForm input,
+  .registrationForm input {
+    /* width: 50%; */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Submit Button */
+  .authForm button,
+  .registrationForm button {
+    padding: 12px;
+    background-color: #deb14e;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .authForm button:hover,
+  .registrationForm button:hover {
+    background-color: #c1973c;
+  }
+  
+  .toggle-text {
+    margin-top: 16px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .link-btn {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .link-btn:hover {
+    text-decoration: underline;
+  }
+  

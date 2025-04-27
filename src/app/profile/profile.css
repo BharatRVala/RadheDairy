@@ -1,0 +1,181 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.user-info {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.edit-btn {
+  margin-top: 10px;
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #005bb5;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-buttons button:first-child {
+  background: #ccc;
+}
+
+.modal-buttons button:last-child {
+  background: #0070f3;
+  color: white;
+}
+
+.modal-buttons button:last-child:hover {
+  background: #005bb5;
+}
+.modal-input-group {
+  margin-bottom: 15px;
+}
+
+.modal-input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.modal-input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+  
+  .orders-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .orders-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .no-orders-text {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .loading-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .order-number {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-items {
+    margin-top: 10px;
+  }
+  
+  .order-items h4 {
+    margin-bottom: 8px;
+  }
+  
+  .order-items ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .order-items li {
+    margin-bottom: 4px;
+  }
+  
+  .order-date {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+  }
+  
