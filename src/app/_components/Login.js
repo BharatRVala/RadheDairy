@@ -70,9 +70,9 @@ function Login({ switchToRegister }) {
           required
         />
         
-        <button type="submit" disabled={isLoading}>Login</button>  // Disable button during loading
+        <button type="submit" disabled={isLoading}>Login</button>  
 
-        {/* Show loading spinner when isLoading is true */}
+
         {isLoading && <div className="loading-spinner"></div>} 
       </form>
       
