@@ -5,7 +5,7 @@ import Header from '../_components/Header';
 import Loading from '../_components/Loading';
 import Hiro from '../_components/Hiro';
 import Footer from '../_components/Footer';
-import Products from '../_components/Products';
+import Products from '../_components/products';
 import './products.css'; // Corrected CSS import
 
 function ProductsPage() {
@@ -23,7 +23,7 @@ function ProductsPage() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Products" backgroundImage="/ProductHiro.jpeg" />
+          <Hiro title="Products" backgroundImage="/productHiro.jpeg" />
           <Products />
           <Footer />
         </div>
@@ -33,3 +33,4 @@ function ProductsPage() {
 }
 
 export default ProductsPage;
+
