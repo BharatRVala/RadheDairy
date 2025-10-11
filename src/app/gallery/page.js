@@ -1,18 +1,18 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import Header from '../_components/Header';
-import Loading from '../_components/Loading';
-import Hiro from '../_components/Hiro';
-import Footer from '../_components/Footer';
-import Gallery from '../_components/Gallery';
-import './gallery.css'; // Corrected import
+import React, { useEffect, useState } from "react";
+import Header from "../_components/Header";
+import Loading from "../_components/Loading";
+import Hiro from "../_components/Hiro";
+import Footer from "../_components/Footer";
+import Gallery from "../_components/Gallery";
+import "./gallery.css";
 
 function GalleryPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 0);
+    const timer = setTimeout(() => setLoading(false), 500); // small delay for smooth transition
     return () => clearTimeout(timer);
   }, []);
 

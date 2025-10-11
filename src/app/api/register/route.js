@@ -42,11 +42,10 @@ export async function POST(req) {
     await newUser.save();
 
     // Generate JWT Token
-    const token = jwt.sign(
-      { id: newUser._id, email: newUser.email },
-      process.env.JWT_SECRET, // Secret from .env
-      { expiresIn: "1h" } // Token expiration time (optional)
-    );
+   const token = jwt.sign(
+  { id: newUser._id, email: newUser.email },
+  process.env.JWT_SECRET
+);
 
     // Return success response with JWT Token
     return NextResponse.json(

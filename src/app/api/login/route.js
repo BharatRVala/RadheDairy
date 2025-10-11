@@ -22,11 +22,11 @@ export async function POST(req) {
       return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
     }
 
-    // Generate JWT Token
+    // Generate JWT Token (no expiration)
     const token = jwt.sign(
       { id: user._id, email: user.email },
-      process.env.JWT_SECRET,
-      { expiresIn: "1m" }
+      process.env.JWT_SECRET
+      // ⛔ No expiresIn means token won't expire
     );
 
     return NextResponse.json(
@@ -50,4 +50,3 @@ export async function POST(req) {
     return NextResponse.json({ error: "Something went wrong" }, { status: 500 });
   }
 }
-
