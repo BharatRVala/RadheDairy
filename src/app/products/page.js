@@ -23,7 +23,7 @@ function ProductsPage() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Products" backgroundImage="/productchiro.jpeg" />
+          <Hiro title="Products" backgroundImage="/Productchiro.jpeg" />
 
           <Products />
           <Footer />
@@ -34,6 +34,7 @@ function ProductsPage() {
 }
 
 export default ProductsPage;
+
 
 
 
