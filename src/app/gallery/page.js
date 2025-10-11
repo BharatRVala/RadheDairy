@@ -23,7 +23,7 @@ function GalleryPage() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Gallery" backgroundImage="/galleryhiro.jpeg" />
+          <Hiro title="Gallery" backgroundImage="/galleryhiro.webp" />
           <Gallery />
           <Footer />
         </div>

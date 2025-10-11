@@ -120,7 +120,7 @@ function ContactInfo() {
             required
           ></textarea>
 
-          <button type="submit" disabled={loading}>
+          <button type="submit" disabled={loading}>Submit
           </button>
         </form>
 

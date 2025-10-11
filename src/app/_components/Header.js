@@ -70,7 +70,7 @@ function Header() {
       <div className="logo">
         <Link href="/" prefetch>
           <Image 
-            src="/logo2.png" 
+            src="/logo2.webp" 
             alt="logo" 
             width={50} 
             height={50}

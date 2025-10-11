@@ -23,7 +23,7 @@ function ProductsPage() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Products" backgroundImage="/Producthiro.jpeg" />
+          <Hiro title="Products" backgroundImage="/Producthiro.webp" />
 
           <Products />
           <Footer />

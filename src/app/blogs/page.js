@@ -23,27 +23,27 @@ function BlogsPage() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Blogs" backgroundImage="/BlogsHiro.jpeg" />
+          <Hiro title="Blogs" backgroundImage="/BlogsHiro.webp" />
           <Blogs 
-            img="/homeHiro.jpg"
+            img="/homeHiro.webp"
             date="September 10, 2022"
             title="Maintaining quality traditions with a new cheese range"
             description="Cheese is more than just food..."
           />
           <Blogs 
-            img="/about1.jpeg"
+            img="/about1.webp"
             date="September 10, 2022"
             title="Maintaining quality traditions with a new cheese range"
             description="Cheese is more than just food..."
           />
           <Blogs 
-            img="/BlogsHiro.jpg"
+            img="/BlogsHiro.webp"
             date="September 10, 2022"
             title="Maintaining quality traditions with a new cheese range"
             description="Cheese is more than just food..."
           />
           <Blogs 
-            img="/GalaryHiro.jpg"
+            img="/GalaryHiro.webp"
             date="September 10, 2022"
             title="Maintaining quality traditions with a new cheese range"
             description="Cheese is more than just food..."

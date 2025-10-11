@@ -23,11 +23,11 @@ export default function Home() {
   }, []);
 
   const teamMembers = [
-    { src: "/team_01.jpg", name: "Rahul Mehta" },
-    { src: "/team_02.jpg", name: "Anjali Patel" },
-    { src: "/team_03.jpg", name: "Vikas Joshi" },
-    { src: "/team_04.jpg", name: "Sneha Desai" },
-    { src: "/team_05.jpg", name: "kohli Sharma" },
+    { src: "/team_01.webp", name: "Rahul Mehta" },
+    { src: "/team_02.webp", name: "Anjali Patel" },
+    { src: "/team_03.webp", name: "Vikas Joshi" },
+    { src: "/team_04.webp", name: "Sneha Desai" },
+    { src: "/team_05.webp", name: "kohli Sharma" },
   ];
   
 
@@ -48,7 +48,7 @@ export default function Home() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Home" backgroundImage="/homehiro.jpg" />
+          <Hiro title="Home" backgroundImage="/homehiro.webp" />
 
           {/* Hero Section */}
           <div className="fcontainer">
@@ -64,7 +64,7 @@ export default function Home() {
 
           {/* Cow Image Section */}
           <div className="scontainer">
-            <Image className="front-img" src="/cow-front.png" alt="cow" width={800} height={720} />
+            <Image className="front-img" src="/cow-front.webp" alt="cow" width={800} height={720} />
           </div>
 
           {/* Product Highlights */}
@@ -73,7 +73,7 @@ export default function Home() {
           {/* About Dairy */}
           <div className="focontainer">
             <div className="ffocontainer">
-              <Image src="/Home_img.jpg" alt="farm" width={700} height={500} />
+              <Image src="/Home_img.webp" alt="farm" width={700} height={500} />
             </div>
             <div className="sfocontainer">
               <h1>Dairy Production Traditions, Proven by Time</h1>
@@ -91,10 +91,10 @@ export default function Home() {
             </div>
             <div className="sficontainer">
               <div className="sficontainer-img">
-                <Image src="/farming.jpg" alt="farming" fill style={{ objectFit: 'cover' }} />
+                <Image src="/farming.webp" alt="farming" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="sficontainer-img">
-                <Image src="/farming_milk.jpg" alt="farming milk" fill style={{ objectFit: 'cover' }} />
+                <Image src="/farming_milk.webp" alt="farming milk" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Home() {
               ))}
             </div>
             <div className="ssicontainer">
-              <Image src="/cheese-big.png" alt="cheese" width={700} height={500} />
+              <Image src="/cheese-big.webp" alt="cheese" width={700} height={500} />
             </div>
           </div>
 
@@ -128,19 +128,19 @@ export default function Home() {
             <div className='products'>
 
             <Productcard1
-      imgSrc="/milk1.png"
+      imgSrc="/milk1.webp"
       title="Milk"
       description="Pure, fresh, and full of nutrition. Sourced daily from healthy cows to ensure the highest quality for your family."
       basePrice={60}/>
 
        <Productcard1
-       imgSrc="/buttermilk.png"
+       imgSrc="/buttermilk.webp"
        title="Buttermilk"
        description="Naturally refreshing and light. A probiotic-rich drink made with care for cooling comfort and digestive wellness."
        basePrice={40} />
 
 <Productcard1
-        imgSrc="/yogurt_bottle.png"
+        imgSrc="/yogurt_bottle.webp"
         title="Yogurt"
         description="Smooth, creamy, and loaded with goodness. Made from fresh milk and live cultures for a healthy, delicious treat."
         basePrice={70} />
@@ -153,15 +153,15 @@ export default function Home() {
           {/* Tour Section */}
           <div className="eicontainer">
             <div className="feicontainer">
-              <Image className="zoom-img" src="/big_cow_w.jpg" alt="cow" width={400} height={600} />
+              <Image className="zoom-img" src="/big_cow_w.webp" alt="cow" width={400} height={600} />
             </div>
             <div className="seicontainer">
               <h3>visit and taste</h3>
               <h1>Welcome to our Farm Tours</h1>
               {[
-                { img: "/tour_01.jpg", title: "Around the Farm", desc: "Step beyond the threshold of the ordinary into a realm where time bends and moments dissolve.", price: "₹499" },
-                { img: "/tour_02.jpg", title: "Photosession", desc: "Engage with the intangible as we invite you to explore the spaces between what is seen, heard, and imagined.", price: "₹999" },
-                { img: "/tour_03.jpg", title: "Milk Tasting", desc: "This is not a journey but an unfolding a convergence of sound, light, and thought, where the lines between audience", price: "₹799" },
+                { img: "/tour_01.webp", title: "Around the Farm", desc: "Step beyond the threshold of the ordinary into a realm where time bends and moments dissolve.", price: "₹499" },
+                { img: "/tour_02.webp", title: "Photosession", desc: "Engage with the intangible as we invite you to explore the spaces between what is seen, heard, and imagined.", price: "₹999" },
+                { img: "/tour_03.webp", title: "Milk Tasting", desc: "This is not a journey but an unfolding a convergence of sound, light, and thought, where the lines between audience", price: "₹799" },
               ].map((item, index) => (
                 <div className="fseicontainer" key={index}>
                   <div className="sfseicontainer">

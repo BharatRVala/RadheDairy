@@ -24,7 +24,7 @@ function ContactPage() {
         <Loading />
       ) : (
         <div className="container">
-          <Hiro title="Contact Us" backgroundImage="/ContactHiro.jpg" />
+          <Hiro title="Contact Us" backgroundImage="/ContactHiro.webp" />
           <ContactInfo />
           <Map />
           <Footer />

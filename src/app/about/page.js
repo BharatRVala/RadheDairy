@@ -14,11 +14,11 @@ import Footer from '../_components/Footer';
 function About() {
   const [loading, setLoading] = useState(true);
   const teamMembers = [
-    { src: "/team_01.jpg"},
-    { src: "/team_02.jpg"},
-    { src: "/team_03.jpg"},
-    { src: "/team_04.jpg"},
-    { src: "/team_05.jpg"},
+    { src: "/team_01.webp"},
+    { src: "/team_02.webp"},
+    { src: "/team_03.webp"},
+    { src: "/team_04.webp"},
+    { src: "/team_05.webp"},
   ];
   useEffect(() => {
     
@@ -33,7 +33,7 @@ function About() {
    <Loading />
 ) : (
   <div className="container">
-    <Hiro title="About Us" backgroundImage="/inner_about.jpg" />
+    <Hiro title="About Us" backgroundImage="/inner_about.webp" />
     <About1 />
     <Youtubev />
     <About2 />

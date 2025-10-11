@@ -14,7 +14,7 @@ function About1() {
             </div>
 
             <div className='about2'>
- <Image src="/about1.jpeg" alt="signature"  layout="responsive"
+ <Image src="/about1.webp" alt="signature"  layout="responsive"
     width={300}
     height={300}
     objectFit="cover"/>

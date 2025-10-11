@@ -14,19 +14,19 @@ function About2() {
     <div className='about2'>
     
     <div className='about01'>
-      <div><Image src="/01_cow.png" alt="cow" width={450} height={420} /></div>
+      <div><Image src="/01_cow.webp" alt="cow" width={450} height={420} /></div>
       <div><h1>  <CountUp key={key} end={87} duration={5} /><br></br></h1><h2>Cows</h2></div>
       <div><p>Our cows are fed only the best grasses and feeds, which directly affects the quality of the milk. We carefully monitor their diet</p></div>
     </div>
 
     <div className='about01'>
-      <div><Image src="/02_goat.png" alt="goat" width={450} height={420}  /></div>
+      <div><Image src="/02_goat.webp" alt="goat" width={450} height={420}  /></div>
       <div><h1>  <CountUp key={key} end={236} duration={5} /><br></br></h1><h2>Goats</h2></div>
       <div><p>Our cows are fed only the best grasses and feeds, which directly affects the quality of the milk. We carefully monitor their diet</p></div>
     </div>
     
     <div className='about01'>
-      <div><Image src="/03_milk.png" alt="milk"  width={450} height={420}  /></div>
+      <div><Image src="/03_milk.webp" alt="milk"  width={450} height={420}  /></div>
       <div><h1><CountUp
   key={key}
   end={4000}
