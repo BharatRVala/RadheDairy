@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+
 # testing
 /coverage
 
@@ -16,8 +17,14 @@
 /.next/
 /out/
 
+
 # production
 /build
+# dotenv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # misc
 .DS_Store
